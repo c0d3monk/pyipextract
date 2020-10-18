@@ -21,7 +21,8 @@ class IPExtractor:
     def validate(self, data: str) -> bool:
         result = False
         if self.valid_ip_regex.match(data):
-            return True
+            result = True
+        return result
 
 
 if __name__ == '__main__':
