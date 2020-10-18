@@ -8,7 +8,7 @@ PACKAGE_DIR = "src"
 
 setuptools.setup(
     name=PACKAGE_NAME,
-    version="1.0.1",
+    version="1.0.2",
     author="c0d3monk",
     author_email="akr.optimus@gmail.com",
     description="A Python utility to validate or extract IPv4 addresses from strings",
